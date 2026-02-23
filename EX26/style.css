@@ -7,5 +7,16 @@ th, td {
     border: 1px solid black;
     padding: 20px;
     text-align: center;
+    padding: 1px;
 }
 
+.media {
+    background-color: gray;
+    color: white;
+    text-align: left;
+}
+
+.cabeçalho {
+    background-color: gray;
+    color: white;
+}
