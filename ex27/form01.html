@@ -14,6 +14,18 @@
         <p><label for="iemail">E-mail:</label> 
             <input type="email" name="e-mail" id="iemail">
         </p>
+        <p>
+            <label for="inumero">Numero: </label>
+            <input type="number" name="numero" id="inumero" oninput="isoma.innerHTML = Number(inumero.value) + Number(inumero2.value)">
+        </p>
+        <p>
+            <label for="inumero2">Numero: </label>
+            <input type="number" name="numero2" id="inumero2" oninput="isoma.innerHTML = Number(inumero.value) + Number(inumero2.value)">
+        </p>
+        <p>
+            <label for="isoma">Soma: </label>
+            <output name="soma" id="isoma">0</output>
+        </p>
         <p><input type="submit" value="enviar" id=""></p>
     </form>
 </body>
