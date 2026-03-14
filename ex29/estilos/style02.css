@@ -15,6 +15,9 @@ telas grandes: acima de 1200px
 @media print {
     body {
         background-image: url(../img/back-print.jpg);
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
     }
     img#celular {display: none;}
     img#tela-media {display: none;}
