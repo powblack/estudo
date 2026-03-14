@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+
+/*
+tamanho
+pequenas telas: ate 600px
+celular: de 600px ate 768px
+tablet: ate 992px
+pc: 1200px
+telas grandes: acima de 1200px
+
+*/
+
+
+@media print {
+    body {
+        background-image: url(../img/back-print.jpg);
+    }
+    img#celular {display: none;}
+    img#tela-media {display: none;}
+    img#computador {display: none;}
+    img#tela-grande {display: none;}
+    img#impressora {display: block;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: url(/ESTUDOS/estudo/ex29/img/back-tablet.jpg);
+    }
+
+    img#celular {display: none;}
+    img#tela-media {display: block;}
+    img#computador {display: none;}
+    img#tela-grande {display: none;}
+    img#impressora {display: none;}
+    
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    body {
+        background-image: url(/ESTUDOS/estudo/ex29/img/back-pc.jpg);
+    }
+    img#celular {display: none;}
+    img#tela-media {display: none;}
+    img#computador {display: block;}
+    img#tela-grande {display: none;}
+    img#impressora {display: none;}
+}
+
+@media screen and (min-width: 1201px) {
+    body {
+        background-image: url(/ESTUDOS/estudo/ex29/img/back-tv.jpg);
+    }
+    img#celular {display: none;}
+    img#tela-media {display: none;}
+    img#computador {display: none;}
+    img#tela-grande {display: block;}
+    img#impressora {display: none;}
+}
+
