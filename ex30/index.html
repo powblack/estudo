@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+</head>
+<body>
+    <header>
+        <h1> This is My Site </h1>
+        <i id="menu" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+        <menu id="lista">
+            <ul>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Mapa</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque temporibus asperiores sunt beatae doloribus facere veritatis architecto. Possimus doloribus nobis fugiat officiis obcaecati illo? Modi dolorum delectus asperiores facere cum!
+            Perferendis praesentium molestiae earum laboriosam id enim numquam quod, voluptatem sit vero, totam omnis voluptate consectetur minima neque vitae doloribus non aperiam. Reiciendis, unde ducimus voluptatum sed tempore laudantium tenetur.
+            Soluta expedita, quisquam, ex fugiat eius quasi quibusdam earum ipsam corporis repellat esse culpa ullam distinctio a veniam dolores, inventore quo neque. Deserunt, ratione omnis. Temporibus commodi quidem voluptate nostrum.
+            Vitae maiores soluta quasi ducimus sequi vel libero rerum aliquam suscipit nesciunt ipsa blanditiis voluptas, voluptate consectetur nulla doloribus quam in cumque. Eveniet rerum sit dignissimos obcaecati explicabo culpa facilis?
+            Quisquam quae iure, reiciendis delectus ullam saepe obcaecati tempora quibusdam dolorem, sequi assumenda rem maxime magnam. Soluta aperiam expedita ullam autem quaerat architecto fuga cum, possimus earum aspernatur reiciendis eaque.
+            Sit dolore ipsa dolorem officia et a blanditiis sint incidunt nam velit, tempore saepe, non sunt ullam quas nihil molestiae doloremque quam ea accusamus quo explicabo sapiente? Ab, tempora corrupti.
+            Consectetur omnis, perferendis veniam inventore recusandae aut dolor? Corporis quibusdam aliquam minima praesentium ipsam porro quia, ad dicta laboriosam facilis autem iure tempore odio necessitatibus, sunt dolore dolor vero animi?
+            Quidem, officiis autem! Incidunt, laboriosam veniam. Corrupti praesentium distinctio, unde porro quae illum at omnis consequatur? Porro modi distinctio similique expedita magnam accusantium ad, voluptatibus tempora recusandae, placeat, dicta iste.
+            Quae earum quaerat officiis repellendus quis illum dolorum aspernatur labore sed tempore incidunt aut esse fuga eaque doloremque voluptatibus amet molestiae et, aperiam nam eveniet ducimus maiores ab! Ipsa, libero.
+            Pariatur non exercitationem quisquam eum ipsam, minima consequuntur ab voluptatem alias possimus aspernatur est quasi nobis impedit, a illo incidunt dolorem, accusantium facilis! Tenetur commodi ratione, ex tempore asperiores accusamus.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (lista.style.display == "block") {
+                lista.style.display = "none"
+            } else {
+                lista.style.display = "block"
+            }
+        }
+    </script>
+</body>
+</html>

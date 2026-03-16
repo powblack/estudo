@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+}
+
+header > h1 {
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#menu {
+    display: block;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#menu:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+menu {
+    display: none; 
+    text-align: center;  
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border-top: 2px solid white;
+
+}
+
+main {
+    padding: 30px;
+
+}
+
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    text-justify: distribute;
+    font-size: 0.8em;
+
+}
