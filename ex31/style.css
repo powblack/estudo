@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+body, html {
+    background-color: purple;
+    height: 100vw;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vw;
+    width: 100vw;
+}
+
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: wheat;
+    width: 250px;
+    height: 600px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+
+section#imagem {
+    background-size: cover;
+    background: no-repeat;
+    height: 20px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+}
+
+p {
+    font-size: 0.5em;
+    padding-bottom: 20px;
+}
